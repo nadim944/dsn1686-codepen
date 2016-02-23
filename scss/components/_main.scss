@@ -3,7 +3,7 @@
  */
 body {
   text-align: center;
-  background-color: #ffff00;
+  background-color: black;
 }
 
 * {
@@ -11,6 +11,34 @@ body {
      -moz-box-sizing: border-box;
           box-sizing: border-box;
 }
+
+h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 7em;
+  font-family: 'roboto';
+  
+}
+
+
+@media screen and (max-width: 762px) {
+    h1{
+        font-size: 6em;
+    }
+}
+
+@media screen and (max-width: 502px) {
+    h1{
+        font-size: 5em;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    h1{
+        font-size: 3em;
+    }
+}
+
 
 /* The loader */
 .loader {
@@ -76,7 +104,7 @@ body {
   
   border-radius: 999px;
   
-  background-color: #990033;
+  background-color: #4dff4d;
   
   transform-style: perserve-3d;
   
